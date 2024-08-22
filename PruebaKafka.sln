@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D925B32-89A7-4C93-9791-3EF7C272E524}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaKafka.consola.consumer", "PruebaKafka.consola.consumer\PruebaKafka.consola.consumer.csproj", "{1F40E077-8B88-4013-8E1E-3E54199EA780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaKafka.consola.producer", "PruebaKafka.consola.producer\PruebaKafka.consola.producer.csproj", "{AC114BD3-A97E-444F-AB48-F14BA29A47B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F40E077-8B88-4013-8E1E-3E54199EA780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F40E077-8B88-4013-8E1E-3E54199EA780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F40E077-8B88-4013-8E1E-3E54199EA780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F40E077-8B88-4013-8E1E-3E54199EA780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC114BD3-A97E-444F-AB48-F14BA29A47B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC114BD3-A97E-444F-AB48-F14BA29A47B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC114BD3-A97E-444F-AB48-F14BA29A47B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC114BD3-A97E-444F-AB48-F14BA29A47B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E17A49-C2CA-4EF0-98BE-E85E5C233CA0}
+	EndGlobalSection
+EndGlobal
